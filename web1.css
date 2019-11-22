@@ -1,0 +1,98 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color:rgb(230,235,255);
+}
+h1{
+	color: green;
+	text-align: center;
+}
+/*ul.nav{
+	position: fixed;
+}*/
+ul.nav li,ul.sub1 li{
+	list-style-type: none;
+	width: 150px;
+	float: left;
+	background-color: green;
+	border: 1px solid rgb(230,235,255);
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+
+}
+a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	display: block;
+}
+a:hover{
+	background-color: gray;
+}
+
+ul.nav li ul.sub1 li{
+	display: none;
+}
+ul.nav li:hover ul.sub1 li{
+	display: block;
+	backface-visibility: hidden;
+}
+div.list_of_c{
+	width: 300px;
+	height: 548px;
+	background-color: black;
+	color: white;
+	position: fixed;
+	overflow: scroll;
+	float: left;
+}
+li.each_content{
+	text-align: left;
+	font-size: 20px;
+	padding-bottom: 5px; 
+	padding-top: 5px;
+	margin-bottom: 3px;
+}
+li.each_content:hover{
+	cursor: pointer;
+	background-color: gray;
+	color: aqua;
+}
+li.each_content:active{
+	background-color: gray;
+	color: aqua;	
+}
+div.media_player{
+	display: inline;
+	float: right;
+	text-align: center;
+	margin-left: 320px;
+}
+div.data{
+	display: inline;
+	float: right;
+	margin-left: 315px;
+	font-family: verdana;
+}
+#videos{
+	backface-visibility: hidden;
+}
+.video{
+	
+}
+ul.nav{
+	position: absolute;
+	top: 55px;
+	left: 0px;
+}
+h1{
+	background-visibility: hidden; 
+	left: 500px;
+	top: 0px;
+}
+div.header{
+	background-color: rgb(230,230,200);
+}

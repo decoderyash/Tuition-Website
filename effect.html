@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.eff{
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+	float: left;
+}
+.eff > .back{
+	background-color: yellow;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	backface-visibility: hidden;
+	-webkit-transform: perspective( 600px ) rotateY( 180deg );
+	transform: perspective( 600px ) rotateY( 180deg );
+	transition: -webkit-transform 2s ; 
+	transition: transform 2s;
+}
+.eff > .front{
+	background-color: green;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	backface-visibility: hidden;
+	-webkit-transform: perspective( 600px ) rotateY( 0deg );
+	transform: perspective( 600px ) rotateY( 0deg );
+	transition: -webkit-transform 2s ;
+	transition: transform 2s ; 
+}
+.eff:hover > .front{
+	-webkit-transform: perspective( 600px ) rotateY( -180deg );
+	transform: perspective( 600px ) rotateY( -180deg );
+}
+.eff:hover > .back{
+	-webkit-transform: perspective( 600px ) rotateY( 0deg );
+	transform: perspective( 600px ) rotateY( 0deg );
+}
+</style>
+</head>
+<body>
+	<div class="eff">
+		<div class="back">back</div>
+		<div class="front">front</div>
+	</div>
+</body>
+</html>

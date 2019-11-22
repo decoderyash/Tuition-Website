@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="new.css">
+</head>
+<body>
+<center><h1 style="margin-left:25%; margin-right:14%;">Sign Up</h1></center>
+<div class="form" style="width:60%; margin-left:25%; margin-right:25%;">
+<form id="form" action="sign.php" method="post">
+<fieldset>
+<div class="div1">
+	<label for="First Name">
+            First Name<span class="req">*</span>
+    </label>
+            <input type="text" name="firstname" placeholder="First Name" pattern="[A-Za-z]{1,10}" required/><br><br>
+</div>
+<div class="div1">
+	<label for="Middle Name">
+            Middle Name<span class="req">*</span>
+    </label>
+            <input type="text" name="MiddleName" placeholder="Middle Name" pattern="[A-Za-z]{1,10}" required/><br><br>
+</div>
+<div class="div1">
+    <label for="Last Name">
+            Last Name<span class="req">*</span>
+    </label>
+            <input type="text" name="LastName" placeholder="Last Name" pattern="[A-Za-z]{1,10}" required/><br><br>
+</div>
+<div class="div1">
+	<label for="Email Address">
+            Email Address<span class="req">*</span>
+    </label>
+            <input type="email" name="EmailAddress" style="border-radius: 5px" placeholder="Email id" required/><br><br>
+</div>
+<div class="div1">
+	<label for="Set A Password">
+            Set A Password<span class="req">*</span>
+    </label>
+            <input type="password" name="password" placeholder="Must be greater than 8 charachters." required/><br><br>
+</div>
+<div class="div1">
+	<label for="gender">Gender</label>
+			<input type="radio" name="gender" checked>Male 
+			<input type="radio" name="gender" >Female
+</div>
+			<br><br>
+			<button class ="signup" type="submit" />Get Started</button>
+</fieldset>
+</form>
+<br>
+<!--<p><span class="btn-round">Or</span></p><br>
+<p>
+<a class="facebook-before"></a>
+<button id="facebook" onclick = "location.href = 'https://www.facebook.com'">Sign up Using Facebook</button>
+</p>
+<p>
+<a class="google-before"></a>
+<button id="google" onclick = "location.href = 'https://www.gmail.com'">Sign up Using Google</button>
+</p>
+</div>-->
+</body>
+</html>

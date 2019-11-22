@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img{
+	width: 350px;
+	height: 400px;
+}
+</style>
+</head>
+<body>
+<h1>Sign Up</h1>
+<div>
+<form id="form" action="new 1.php" method="POST">
+<fieldset>
+<div class="div1">
+	<label for="First Name">
+            First Name<span class="req">*</span>
+    </label>
+            <input type="text" name="firstname" placeholder="First Name"/><br><br>
+</div>
+<div class="div1">
+	<label for="Middle Name">
+            Middle Name<span class="req">*</span>
+    </label>
+            <input type="text" name="Middle Name" placeholder="Middle Name"/><br><br>
+</div>
+<div class="div1">
+    <label for="Last Name">
+            Last Name<span class="req">*</span>
+    </label>
+            <input type="text" name="Last Name" placeholder="Last Name" /><br><br>
+</div>
+<div class="div1">
+	<label for="Email Address">
+            Email Address<span class="req">*</span>
+    </label>
+            <input type="email" name="Email Address" style="border-radius:5px;" placeholder="Email id"/><br><br>
+</div>
+<div class="div1">
+	<label for="Set A Password">
+            Set A Password<span class="req">*</span>
+    </label>
+            <input type="password" placeholder="Must be greater than 8 charachters."/><br><br>
+</div>
+<div class="div1">
+	<label for="gender">Gender</label>
+			<input type="radio" name="gender" checked>Male 
+			<input type="radio" name="gender" >Female
+</div>
+			<br><br>
+			<button class ="signup" type="submit" />Get Started</button>
+</fieldset>
+</form>
+</div>
+<p><span class="btn-round">Or</span></p><br>
+<p>
+<a class="facebook-before"></a>
+<button id="facebook">Sign up Using Facbook</button>
+</p>
+<p>
+<a class="twitter-before"></a>
+<button id="twitter">Sign up Using Twitter</button>
+</p>
+<a class="google-before"></a>
+<button id="google">Sign up Using Google</button>
+</p>
+</body>
+</html>

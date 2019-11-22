@@ -1,0 +1,48 @@
+body{
+	background-color: #581845;
+	font-weight: bolder;
+	border-bottom: solid black;
+	background-image: url(a.jpg);
+}
+h1{
+	background-color: brown;
+	color: black;
+	text-decoration: underline overline;
+	font-size: 100px;
+	font-style: italic;
+	padding: 20px;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+h2{
+	color: white;
+}
+p,img{
+	font-style: italic;
+	color: violet;
+}
+img{
+	margin-left: 500px;
+}
+.para{
+	text-align: center;
+	width:50%;
+}
+#spn{
+	color: white;
+	background-color: rgb(230,25,20);
+}
+img{
+	width: 50%;
+	float: right;
+}
+div{
+	width: 50%;
+	float: left;
+}
+a.button{
+	padding:4px;
+	background-color:gray;
+	border-radius:5px;
+	cursor:move;
+}
